@@ -1,0 +1,142 @@
+body{
+    background-color: hsl(210, 60%, 98%);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: hsl(219, 12%, 42%);
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+.notification-container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.indicator{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: hsl(1, 90%, 64%);
+    margin-left: 50px;
+}
+
+.notification-markAll{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.notification-item:last-child{
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#markAsRead-el{
+    text-decoration: none;
+    color: hsl(219, 12%, 42%);
+}
+
+#markAsRead-el:hover{
+    color: hsl(219, 85%, 26%);
+    cursor: pointer;
+}
+
+.notification-item:nth-child(2){
+    margin-left: 10px;
+    background-color: hsl(219, 85%, 26%);
+    padding: 1px  7px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+}
+
+.notification-item:first-child{
+    font-size: 1.5em;
+    font-weight: 900;
+    color:hsl(224, 21%, 14%)
+}
+.message{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+img{
+    margin-right: 10px;
+}
+.message-el{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+#message1{
+    background-color: hsl(210, 60%, 98%);
+}
+
+#message2{
+    background-color: hsl(210, 60%, 98%);
+}
+
+#message3{
+    background-color: hsl(210, 60%, 98%);
+}
+
+
+.object a{
+    color: hsl(219, 12%, 42%);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.object a:hover{
+    color: hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+
+.time{
+    color: hsl(219, 12%, 42%);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sender-name a{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+    text-decoration: none;
+}
+.sender-name a:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.preview-message{
+    border: 1px solid hsl(211, 68%, 94%);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: 30px;
+    background-color: transparent;
+}
+
+.preview-message:hover{
+    background-color: hsl(205, 33%, 90%);
+    cursor: pointer;
+}
+
+
+
